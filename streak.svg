@@ -5,11 +5,11 @@
 <circle cx="64" cy="20" r="6" fill="#27c93f"/>
 <text x="300.0" y="25" fill="#8b949e" font-size="13" text-anchor="middle">~ genzpx</text>
 <line x1="0" y1="40" x2="600" y2="40" stroke="#30363d"/>
-<text x="20" y="64" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">$ streak --live</text>
-<text x="20" y="90" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  current streak   5 days</text>
-<text x="20" y="116" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  longest streak   5 days</text>
-<text x="20" y="142" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  contributions    ~7 (last 90d)</text>
-<text x="20" y="178" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">$ sparkline</text>
+<text x="20" y="64" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace">$ streak --live</text>
+<text x="20" y="90" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  current streak   5 days</text>
+<text x="20" y="116" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  longest streak   5 days</text>
+<text x="20" y="142" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  contributions    ~7 (last 90d)</text>
+<text x="20" y="178" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace">$ sparkline</text>
 <rect x="20" y="203" width="8" height="3" rx="2" fill="#21262d"/>
 <rect x="33" y="203" width="8" height="3" rx="2" fill="#21262d"/>
 <rect x="46" y="203" width="8" height="3" rx="2" fill="#21262d"/>

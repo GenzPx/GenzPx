@@ -14,20 +14,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Generate terminal stats SVG
-        uses: yogeshwaran01/github-stats-terminal-style@master
-        with:
-          username: GenzPx
-          token: ${{ secrets.GITHUB_TOKEN }}
-          theme: hacker
-          headerStyle: mac
-          hostname: genzpx
-          typingSpeed: "80"
-          commands: whoami,neofetch,languages,top-repos,uptime,exit
-          outputPath: terminal_stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/generate_stats.py
 
       - name: Commit and push
         run: |

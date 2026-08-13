@@ -1,0 +1,42 @@
+name: Generate terminal stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate terminal stats SVG
+        uses: yogeshwaran01/github-stats-terminal-style@master
+        with:
+          username: GenzPx
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: hacker
+          headerStyle: mac
+          hostname: genzpx
+          typingSpeed: "80"
+          commands: whoami,neofetch,languages,top-repos,uptime,exit
+          outputPath: terminal_stats.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add terminal_stats.svg
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: update terminal stats"
+            git push
+          fi

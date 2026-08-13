@@ -1,0 +1,18 @@
+{
+  "Android": [
+    {"emoji": "🎵", "repo": "music"},
+    {"emoji": "📊", "repo": "MonitoredCheck"},
+    {"emoji": "🖥️", "repo": "SickHack"},
+    {"emoji": "📦", "repo": "ApkStore"}
+  ],
+  "CLI & security": [
+    {"emoji": "🔐", "repo": "The-Decoder"},
+    {"emoji": "📥", "repo": "DOWNLOADER-UX"},
+    {"emoji": "🛰️", "repo": "security-toolkit"},
+    {"emoji": "🕵️", "repo": "Information-Cracker"}
+  ],
+  "Experiments": [
+    {"emoji": "🧠", "repo": "CasperVerse"},
+    {"emoji": "🧒", "repo": "EduKids"}
+  ]
+}

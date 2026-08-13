@@ -1,18 +1,18 @@
 {
   "Android": [
-    {"emoji": "🎵", "repo": "music"},
-    {"emoji": "📊", "repo": "MonitoredCheck"},
-    {"emoji": "🖥️", "repo": "SickHack"},
-    {"emoji": "📦", "repo": "ApkStore"}
+    {"icon": "music.svg", "repo": "music"},
+    {"icon": "monitoredcheck.svg", "repo": "MonitoredCheck"},
+    {"icon": "sickhack.svg", "repo": "SickHack"},
+    {"icon": "apkstore.svg", "repo": "ApkStore"}
   ],
   "CLI & security": [
-    {"emoji": "🔐", "repo": "The-Decoder"},
-    {"emoji": "📥", "repo": "DOWNLOADER-UX"},
-    {"emoji": "🛰️", "repo": "security-toolkit"},
-    {"emoji": "🕵️", "repo": "Information-Cracker"}
+    {"icon": "the-decoder.svg", "repo": "The-Decoder"},
+    {"icon": "downloader-ux.svg", "repo": "DOWNLOADER-UX"},
+    {"icon": "security-toolkit.svg", "repo": "security-toolkit"},
+    {"icon": "information-cracker.svg", "repo": "Information-Cracker"}
   ],
   "Experiments": [
-    {"emoji": "🧠", "repo": "CasperVerse"},
-    {"emoji": "🧒", "repo": "EduKids"}
+    {"icon": "casperverse.svg", "repo": "CasperVerse"},
+    {"icon": "edukids.svg", "repo": "EduKids"}
   ]
 }

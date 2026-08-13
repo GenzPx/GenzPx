@@ -1,4 +1,4 @@
-name: Generate terminal stats
+name: Generate profile assets
 
 on:
   schedule:
@@ -15,19 +15,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate terminal stats SVG
+      - name: Generate SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 .github/scripts/generate_stats.py
+        run: python3 .github/scripts/generate_assets.py
+
+      - name: Update projects table
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/update_projects.py
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add terminal_stats.svg
+          git add -A
           if git diff --cached --quiet; then
             echo "No changes."
           else
-            git commit -m "chore: update terminal stats"
+            git commit -m "chore: update profile assets"
             git push
           fi

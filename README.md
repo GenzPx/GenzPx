@@ -15,24 +15,9 @@
 
 </div>
 
-```
+<br/>
 
-┌──────────────────────────────────────────┐
-│  ●  ●  ●                       ~ genzpx│
-│                                          │
-│  $ whoami                                │
-│  Name     : GenzPX                       │
-│  Alias    : ./XternalZ                   │
-│  Role     : Indonesian solo builder      │
-│  Stack    : Android · Python · Web       │
-│  Status   : sleep | eat | have money     │
-│                                          │
-│  $ echo $PHILOSOPHY                      │
-│  Tools are meant to be understood,       │
-│  not just used.                          │
-└──────────────────────────────────────────┘
-
-```
+<img src="assets/neofetch.svg" alt="neofetch" width="640" />
 
 I ship tools that solve my own problems — offline-first Android apps, CLI security tooling, and small systems built from scratch. No framework religion. If I can understand it, I can build it.
 
@@ -52,45 +37,34 @@ I ship tools that solve my own problems — offline-first Android apps, CLI secu
 
 | | Project | What it actually does |
 | :--- | :--- | :--- |
-| 🎵 | [**music**](https://github.com/GenzPx/music) | Offline music & video player. No ads. No `INTERNET` permission. |
-| 📊 | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | System monitor + hardware inspector. Real data only, nothing faked. |
-| 🖥️ | [**SickHack**](https://github.com/GenzPx/SickHack) | Terminal-style web security toolkit on Android. Educational. |
-| 📦 | [**ApkStore**](https://github.com/GenzPx/ApkStore) | GitHub Releases, dressed up as an Android app store. |
+| <img src="assets/icons/music.svg" width="20" /> | [**music**](https://github.com/GenzPx/music) | Offline music and video player for Android with no ads and no internet permission |
+| <img src="assets/icons/monitoredcheck.svg" width="20" /> | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | All-in-one Android system monitor and hardware inspector with real, non-fabricated data |
+| <img src="assets/icons/sickhack.svg" width="20" /> | [**SickHack**](https://github.com/GenzPx/SickHack) | Terminal-style web security testing toolkit for Android (educational use only) |
+| <img src="assets/icons/apkstore.svg" width="20" /> | [**ApkStore**](https://github.com/GenzPx/ApkStore) | Android app store backed by GitHub Releases |
 
 ### CLI & security
 
 | | Project | What it actually does |
 | :--- | :--- | :--- |
-| 🔐 | [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | Multi-format decoder CLI. Zero dependencies. |
-| 📥 | [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | File downloader + URL analyzer for Termux / Linux. |
-| 🛰️ | [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | OSINT, recon, scraping, and reporting — one CLI. |
-| 🕵️ | [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | OSINT + network analysis from the terminal. |
+| <img src="assets/icons/the-decoder.svg" width="20" /> | [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | Dependency-free CLI for decoding base64, URL, hash and multiple data formats |
+| <img src="assets/icons/downloader-ux.svg" width="20" /> | [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | Universal file downloader and URL analyzer for Termux and Linux |
+| <img src="assets/icons/security-toolkit.svg" width="20" /> | [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | Command-line security toolkit with modules for OSINT, reconnaissance, scraping and reporting |
+| <img src="assets/icons/information-cracker.svg" width="20" /> | [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | Information-Cracker: OSINT and network analysis command-line tool |
 
 ### Experiments
 
 | | Project | What it actually does |
 | :--- | :--- | :--- |
-| 🧠 | [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | CasperAI — offline language system, written from scratch in NumPy. |
-| 🧒 | [**EduKids**](https://github.com/GenzPx/EduKids) | Interactive learning app for kids aged 2–7. |
+| <img src="assets/icons/casperverse.svg" width="20" /> | [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | CasperAI: a lightweight offline language system built from scratch with NumPy |
+| <img src="assets/icons/edukids.svg" width="20" /> | [**EduKids**](https://github.com/GenzPx/EduKids) | Interactive learning application for children aged 2 to 7 |
 
 <!-- PROJECTS:END -->
 
 <p align="center">
-  <a href="https://github.com/GenzPx/music">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GenzPx&repo=music&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9" alt="music" />
-  </a>
-  <a href="https://github.com/GenzPx/MonitoredCheck">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GenzPx&repo=MonitoredCheck&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9" alt="MonitoredCheck" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/GenzPx/CasperVerse">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GenzPx&repo=CasperVerse&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9" alt="CasperVerse" />
-  </a>
-  <a href="https://github.com/GenzPx/SickHack">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=GenzPx&repo=SickHack&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9" alt="SickHack" />
-  </a>
+  <a href="https://github.com/GenzPx/music"><img src="assets/badges/music.svg" alt="music" /></a>
+  <a href="https://github.com/GenzPx/MonitoredCheck"><img src="assets/badges/MonitoredCheck.svg" alt="MonitoredCheck" /></a>
+  <a href="https://github.com/GenzPx/CasperVerse"><img src="assets/badges/CasperVerse.svg" alt="CasperVerse" /></a>
+  <a href="https://github.com/GenzPx/SickHack"><img src="assets/badges/SickHack.svg" alt="SickHack" /></a>
 </p>
 
 ---
@@ -132,7 +106,7 @@ Especially, I don't have any skills. But I love:
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=GenzPx&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakNum=00FF41&sideNums=C9D1D9&currStreakLabel=00FF41&sideLabels=C9D1D9&dates=8B949E" alt="streak" />
+  <img src="streak.svg" alt="streak" width="560" />
 </div>
 
 <div align="center">

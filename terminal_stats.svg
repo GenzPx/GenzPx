@@ -1,40 +1,40 @@
-<svg width="600" height="456" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans Mono, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="456" font-family="DejaVu Sans Mono, monospace">
 <rect width="600" height="456" rx="12" fill="#0D1117" stroke="#30363d"/>
 <circle cx="24" cy="20" r="6" fill="#ff5f56"/>
 <circle cx="44" cy="20" r="6" fill="#ffbd2e"/>
 <circle cx="64" cy="20" r="6" fill="#27c93f"/>
 <text x="300.0" y="25" fill="#8b949e" font-size="13" text-anchor="middle">~ genzpx</text>
 <line x1="0" y1="40" x2="600" y2="40" stroke="#30363d"/>
-<text x="20" y="62" fill="#00FF41" font-size="14" text-anchor="start">$ whoami</text>
-<text x="20" y="84" fill="#8b949e" font-size="14" text-anchor="start">  GenzPX  (./XternalZ)</text>
-<text x="20" y="106" fill="#8b949e" font-size="14" text-anchor="start">  Indonesian solo builder</text>
-<text x="20" y="132" fill="#00FF41" font-size="14" text-anchor="start">$ stats</text>
-<text x="20" y="154" fill="#00FF41" font-size="14" text-anchor="start">  followers     1</text>
-<text x="20" y="176" fill="#00FF41" font-size="14" text-anchor="start">  following     0</text>
-<text x="20" y="198" fill="#00FF41" font-size="14" text-anchor="start">  public repos  11</text>
-<text x="20" y="220" fill="#00FF41" font-size="14" text-anchor="start">  total stars   2</text>
-<text x="20" y="242" fill="#00FF41" font-size="14" text-anchor="start">  total forks   0</text>
-<text x="20" y="268" fill="#00FF41" font-size="14" text-anchor="start">$ languages</text>
-<text x="20" y="290" fill="#8b949e" font-size="13" text-anchor="start">Kotlin</text>
+<text x="20" y="62" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">$ whoami</text>
+<text x="20" y="84" fill="#8b949e" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  GenzPX  (./XternalZ)</text>
+<text x="20" y="106" fill="#8b949e" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  Indonesian solo builder</text>
+<text x="20" y="132" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">$ stats</text>
+<text x="20" y="154" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  followers     1</text>
+<text x="20" y="176" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  following     0</text>
+<text x="20" y="198" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  public repos  11</text>
+<text x="20" y="220" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  total stars   2</text>
+<text x="20" y="242" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  total forks   0</text>
+<text x="20" y="268" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">$ languages</text>
+<text x="20" y="290" fill="#8b949e" font-size="13" font-family="DejaVu Sans Mono, monospace" text-anchor="start">Kotlin</text>
 <rect x="150" y="277" width="370" height="11" rx="3" fill="#161b22"/>
 <rect x="150" y="277" width="185" height="11" rx="3" fill="#00FF41"/>
-<text x="530" y="290" fill="#00FF41" font-size="13" text-anchor="start">50.2%</text>
-<text x="20" y="312" fill="#8b949e" font-size="13" text-anchor="start">Python</text>
+<text x="530" y="290" fill="#00FF41" font-size="13" font-family="DejaVu Sans Mono, monospace" text-anchor="start">50.2%</text>
+<text x="20" y="312" fill="#8b949e" font-size="13" font-family="DejaVu Sans Mono, monospace" text-anchor="start">Python</text>
 <rect x="150" y="299" width="370" height="11" rx="3" fill="#161b22"/>
 <rect x="150" y="299" width="63" height="11" rx="3" fill="#00FF41"/>
-<text x="530" y="312" fill="#00FF41" font-size="13" text-anchor="start">17.1%</text>
-<text x="20" y="334" fill="#8b949e" font-size="13" text-anchor="start">Java</text>
+<text x="530" y="312" fill="#00FF41" font-size="13" font-family="DejaVu Sans Mono, monospace" text-anchor="start">17.1%</text>
+<text x="20" y="334" fill="#8b949e" font-size="13" font-family="DejaVu Sans Mono, monospace" text-anchor="start">Java</text>
 <rect x="150" y="321" width="370" height="11" rx="3" fill="#161b22"/>
 <rect x="150" y="321" width="55" height="11" rx="3" fill="#00FF41"/>
-<text x="530" y="334" fill="#00FF41" font-size="13" text-anchor="start">15.0%</text>
-<text x="20" y="356" fill="#8b949e" font-size="13" text-anchor="start">JavaScript</text>
+<text x="530" y="334" fill="#00FF41" font-size="13" font-family="DejaVu Sans Mono, monospace" text-anchor="start">15.0%</text>
+<text x="20" y="356" fill="#8b949e" font-size="13" font-family="DejaVu Sans Mono, monospace" text-anchor="start">JavaScript</text>
 <rect x="150" y="343" width="370" height="11" rx="3" fill="#161b22"/>
 <rect x="150" y="343" width="29" height="11" rx="3" fill="#00FF41"/>
-<text x="530" y="356" fill="#00FF41" font-size="13" text-anchor="start">8.1%</text>
-<text x="20" y="378" fill="#8b949e" font-size="13" text-anchor="start">CSS</text>
+<text x="530" y="356" fill="#00FF41" font-size="13" font-family="DejaVu Sans Mono, monospace" text-anchor="start">8.1%</text>
+<text x="20" y="378" fill="#8b949e" font-size="13" font-family="DejaVu Sans Mono, monospace" text-anchor="start">CSS</text>
 <rect x="150" y="365" width="370" height="11" rx="3" fill="#161b22"/>
 <rect x="150" y="365" width="21" height="11" rx="3" fill="#00FF41"/>
-<text x="530" y="378" fill="#00FF41" font-size="13" text-anchor="start">5.8%</text>
-<text x="20" y="404" fill="#00FF41" font-size="14" text-anchor="start">$ exit</text>
-<text x="20" y="426" fill="#8b949e" font-size="14" text-anchor="start">  bye.</text>
+<text x="530" y="378" fill="#00FF41" font-size="13" font-family="DejaVu Sans Mono, monospace" text-anchor="start">5.8%</text>
+<text x="20" y="404" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">$ exit</text>
+<text x="20" y="426" fill="#8b949e" font-size="14" font-family="DejaVu Sans Mono, monospace" text-anchor="start">  bye.</text>
 </svg>

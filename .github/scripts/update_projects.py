@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Auto-update the "What I build" section of the profile README.
 
-Reads .github/projects.json (category -> [{emoji, repo}]) and rewrites the
+Reads .github/projects.json (category -> [{icon, repo}]) and rewrites the
 tables between <!-- PROJECTS:START --> and <!-- PROJECTS:END --> in README.md.
 
 Repo descriptions are pulled live from the GitHub API, so keeping a repo's
@@ -47,11 +47,12 @@ def build_tables(cfg):
         parts.append("| | Project | What it actually does |")
         parts.append("| :--- | :--- | :--- |")
         for it in items:
-            emoji = it.get("emoji", "•")
+            icon = it.get("icon", "")
             repo = it["repo"]
             desc = repo_desc(repo)
             link = f"[**{repo}**](https://github.com/{USER}/{repo})"
-            parts.append(f"| {emoji} | {link} | {desc} |")
+            img = f'<img src="assets/icons/{icon}" width="20" />'
+            parts.append(f"| {img} | {link} | {desc} |")
         parts.append("")
     return "\n".join(parts).rstrip() + "\n"
 

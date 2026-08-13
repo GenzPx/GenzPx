@@ -52,26 +52,26 @@ I ship tools that solve my own problems — offline-first Android apps, CLI secu
 
 | | Project | What it actually does |
 | :--- | :--- | :--- |
-| 🎵 | [**music**](https://github.com/GenzPx/music) | Offline music & video player. No ads. No `INTERNET` permission. |
-| 📊 | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | System monitor + hardware inspector. Real data only, nothing faked. |
-| 🖥️ | [**SickHack**](https://github.com/GenzPx/SickHack) | Terminal-style web security toolkit on Android. Educational. |
-| 📦 | [**ApkStore**](https://github.com/GenzPx/ApkStore) | GitHub Releases, dressed up as an Android app store. |
+| 🎵 | [**music**](https://github.com/GenzPx/music) | Offline music and video player for Android with no ads and no internet permission |
+| 📊 | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | All-in-one Android system monitor and hardware inspector with real, non-fabricated data |
+| 🖥️ | [**SickHack**](https://github.com/GenzPx/SickHack) | Terminal-style web security testing toolkit for Android (educational use only) |
+| 📦 | [**ApkStore**](https://github.com/GenzPx/ApkStore) | Android app store backed by GitHub Releases |
 
 ### CLI & security
 
 | | Project | What it actually does |
 | :--- | :--- | :--- |
-| 🔐 | [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | Multi-format decoder CLI. Zero dependencies. |
-| 📥 | [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | File downloader + URL analyzer for Termux / Linux. |
-| 🛰️ | [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | OSINT, recon, scraping, and reporting — one CLI. |
-| 🕵️ | [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | OSINT + network analysis from the terminal. |
+| 🔐 | [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | Dependency-free CLI for decoding base64, URL, hash and multiple data formats |
+| 📥 | [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | Universal file downloader and URL analyzer for Termux and Linux |
+| 🛰️ | [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | Command-line security toolkit with modules for OSINT, reconnaissance, scraping and reporting |
+| 🕵️ | [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | Information-Cracker: OSINT and network analysis command-line tool |
 
 ### Experiments
 
 | | Project | What it actually does |
 | :--- | :--- | :--- |
-| 🧠 | [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | CasperAI — offline language system, written from scratch in NumPy. |
-| 🧒 | [**EduKids**](https://github.com/GenzPx/EduKids) | Interactive learning app for kids aged 2–7. |
+| 🧠 | [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | CasperAI: a lightweight offline language system built from scratch with NumPy |
+| 🧒 | [**EduKids**](https://github.com/GenzPx/EduKids) | Interactive learning application for children aged 2 to 7 |
 
 <!-- PROJECTS:END -->
 

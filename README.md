@@ -35,16 +35,16 @@ I ship tools that solve my own problems — offline-first Android apps, CLI secu
 
 | Project | Description |
 | :--- | :--- |
-| [**music**](https://github.com/GenzPx/music) | offline music player |
+| [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | network analysis tool |
+| [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
+| [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
+| [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
+| [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | multi-decoder cli |
+| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | offline ai system |
+| [**ApkStore**](https://github.com/GenzPx/ApkStore) | github app store |
 | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
 | [**SickHack**](https://github.com/GenzPx/SickHack) | web security toolkit |
-| [**ApkStore**](https://github.com/GenzPx/ApkStore) | github app store |
-| [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | multi-decoder cli |
-| [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
-| [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
-| [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | network analysis tool |
-| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | offline ai system |
-| [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
+| [**music**](https://github.com/GenzPx/music) | offline music player |
 
 <!-- PROJECTS:END -->
 

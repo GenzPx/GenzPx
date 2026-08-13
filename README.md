@@ -1,17 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00FF41&center=true&vCenter=true&width=680&height=50&lines=whoami+%3D+GenzPX+%2F+.%2FXternalZ;Indonesian+solo+dev+%C2%B7+I+build+tools+I+actually+use;sleep+%7C+eat+%7C+have+money" alt="typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=3FB950&center=true&vCenter=true&width=680&height=50&lines=whoami+%3D+GenzPX+%2F+.%2FXternalZ;Indonesian+solo+dev+%C2%B7+I+build+tools+I+actually+use;sleep+%7C+eat+%7C+have+money" alt="typing" />
 
 <br/>
 
 <img src="https://media1.tenor.com/m/9C-wnbKI-IQAAAAC/death-note.gif" width="180" alt="death note" />
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=GenzPx&label=profile+views&color=00ff41&style=flat-square" alt="views" />
-<img src="https://img.shields.io/github/followers/GenzPx?label=followers&style=flat-square&color=00ff41" alt="followers" />
-<img src="https://img.shields.io/github/stars/GenzPx?affiliations=OWNER&label=stars&style=flat-square&color=00ff41" alt="stars" />
-<img src="https://img.shields.io/badge/status-focusing-00ff41?style=flat-square" alt="status" />
 
 </div>
 
@@ -19,7 +12,7 @@
 
 <img src="assets/neofetch.svg" alt="neofetch" width="640" />
 
-I ship tools that solve my own problems — offline-first Android apps, CLI security tooling, and small systems built from scratch. No framework religion. If I can understand it, I can build it.
+I don't build tools to solve your problems — I build them to solve mine. Offline-first, built from scratch, no framework religion. If one of them happens to solve yours too, then hey, why not leave a star? It costs nothing, and it keeps me going.
 
 <div align="center">
 
@@ -35,16 +28,16 @@ I ship tools that solve my own problems — offline-first Android apps, CLI secu
 
 | Project | Description |
 | :--- | :--- |
-| [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | network analysis tool |
-| [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
-| [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
-| [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
-| [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | multi-decoder cli |
-| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | offline ai system |
-| [**ApkStore**](https://github.com/GenzPx/ApkStore) | github app store |
+| [**music**](https://github.com/GenzPx/music) | offline music player |
 | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
 | [**SickHack**](https://github.com/GenzPx/SickHack) | web security toolkit |
-| [**music**](https://github.com/GenzPx/music) | offline music player |
+| [**ApkStore**](https://github.com/GenzPx/ApkStore) | github app store |
+| [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | multi-decoder cli |
+| [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
+| [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
+| [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | network analysis tool |
+| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | offline ai system |
+| [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
 
 <!-- PROJECTS:END -->
 

@@ -1,23 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="462" font-family="DejaVu Sans Mono, monospace">
-<rect width="640" height="462" rx="14" fill="#0D1117" stroke="#30363d"/>
-<circle cx="24" cy="21" r="6" fill="#ff5f56"/>
-<circle cx="44" cy="21" r="6" fill="#ffbd2e"/>
-<circle cx="64" cy="21" r="6" fill="#27c93f"/>
-<text x="320.0" y="26" fill="#8b949e" font-size="13" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">~ genzpx</text>
-<line x1="0" y1="42" x2="640" y2="42" stroke="#30363d"/>
-<rect x="26" y="68" width="110" height="110" rx="22" fill="#161B22" stroke="#30363d"/>
-<text x="81.0" y="139.0" fill="#00FF41" font-size="40" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">&gt;_</text>
-<text x="176" y="88" fill="#00FF41" font-size="16" font-family="DejaVu Sans Mono, monospace">genzpx@github</text>
-<text x="176" y="122" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace">Name     </text>
-<text x="176" y="148" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  GenzPX</text>
-<text x="176" y="174" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace">Alias    </text>
-<text x="176" y="200" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  ./XternalZ</text>
-<text x="176" y="226" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace">Role     </text>
-<text x="176" y="252" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  Indonesian solo builder</text>
-<text x="176" y="278" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace">Stack    </text>
-<text x="176" y="304" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  Android · Python · Web</text>
-<text x="176" y="330" fill="#00FF41" font-size="14" font-family="DejaVu Sans Mono, monospace">Status   </text>
-<text x="176" y="356" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  sleep | eat | have money</text>
-<text x="176" y="390" fill="#8b949e" font-size="14" font-family="DejaVu Sans Mono, monospace">"Tools are meant to be understood,</text>
-<text x="176" y="416" fill="#8b949e" font-size="14" font-family="DejaVu Sans Mono, monospace"> not just used."</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="346" font-family="DejaVu Sans Mono, monospace">
+<rect width="640" height="346" rx="14" fill="#0D1117" stroke="#30363D"/>
+<circle cx="24" cy="21" r="6" fill="#FF5F56"/>
+<circle cx="44" cy="21" r="6" fill="#FFBD2E"/>
+<circle cx="64" cy="21" r="6" fill="#27C93F"/>
+<text x="320.0" y="26" fill="#8B949E" font-size="13" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">~ genzpx</text>
+<line x1="0" y1="42" x2="640" y2="42" stroke="#30363D"/>
+<rect x="26" y="68" width="104" height="104" rx="22" fill="#161B22" stroke="#30363D"/>
+<text x="78.0" y="136.0" fill="#3FB950" font-size="40" text-anchor="middle" font-family="DejaVu Sans Mono, monospace">&gt;_</text>
+<text x="176" y="82" fill="#3FB950" font-size="16" font-family="DejaVu Sans Mono, monospace" font-weight="bold">genzpx@github</text>
+<text x="176" y="110" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">Name</text>
+<text x="272" y="110" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">GenzPX · ./XternalZ</text>
+<text x="176" y="136" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">Role</text>
+<text x="272" y="136" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">Indonesian solo builder</text>
+<text x="176" y="162" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">Stack</text>
+<text x="272" y="162" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">Android · Python · Web</text>
+<text x="176" y="188" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">Followers</text>
+<text x="272" y="188" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">1</text>
+<text x="176" y="214" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">Stars</text>
+<text x="272" y="214" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">2</text>
+<text x="176" y="240" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">Views</text>
+<text x="272" y="240" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">17</text>
+<text x="176" y="274" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">"Tools are meant to be understood,</text>
+<text x="176" y="300" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace"> not just used."</text>
 </svg>

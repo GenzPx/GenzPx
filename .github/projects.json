@@ -1,18 +1,18 @@
 {
   "Android": [
-    {"icon": "music.svg", "repo": "music"},
-    {"icon": "monitoredcheck.svg", "repo": "MonitoredCheck"},
-    {"icon": "sickhack.svg", "repo": "SickHack"},
-    {"icon": "apkstore.svg", "repo": "ApkStore"}
+    {"repo": "music", "icon": "music", "desc": "offline player"},
+    {"repo": "MonitoredCheck", "icon": "monitoredcheck", "desc": "system monitor"},
+    {"repo": "SickHack", "icon": "sickhack", "desc": "security toolkit"},
+    {"repo": "ApkStore", "icon": "apkstore", "desc": "app store"}
   ],
   "CLI & security": [
-    {"icon": "the-decoder.svg", "repo": "The-Decoder"},
-    {"icon": "downloader-ux.svg", "repo": "DOWNLOADER-UX"},
-    {"icon": "security-toolkit.svg", "repo": "security-toolkit"},
-    {"icon": "information-cracker.svg", "repo": "Information-Cracker"}
+    {"repo": "The-Decoder", "icon": "the-decoder", "desc": "decoder CLI"},
+    {"repo": "DOWNLOADER-UX", "icon": "downloader-ux", "desc": "downloader"},
+    {"repo": "security-toolkit", "icon": "security-toolkit", "desc": "OSINT toolkit"},
+    {"repo": "Information-Cracker", "icon": "information-cracker", "desc": "network analysis"}
   ],
   "Experiments": [
-    {"icon": "casperverse.svg", "repo": "CasperVerse"},
-    {"icon": "edukids.svg", "repo": "EduKids"}
+    {"repo": "CasperVerse", "icon": "casperverse", "desc": "offline AI"},
+    {"repo": "EduKids", "icon": "edukids", "desc": "kids learning"}
   ]
 }

@@ -35,37 +35,30 @@ I ship tools that solve my own problems — offline-first Android apps, CLI secu
 
 ### Android
 
-| | Project | What it actually does |
-| :--- | :--- | :--- |
-| <img src="assets/icons/music.svg" width="20" /> | [**music**](https://github.com/GenzPx/music) | Offline music and video player for Android with no ads and no internet permission |
-| <img src="assets/icons/monitoredcheck.svg" width="20" /> | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | All-in-one Android system monitor and hardware inspector with real, non-fabricated data |
-| <img src="assets/icons/sickhack.svg" width="20" /> | [**SickHack**](https://github.com/GenzPx/SickHack) | Terminal-style web security testing toolkit for Android (educational use only) |
-| <img src="assets/icons/apkstore.svg" width="20" /> | [**ApkStore**](https://github.com/GenzPx/ApkStore) | Android app store backed by GitHub Releases |
+<p align="left">
+<a href="https://github.com/GenzPx/music"><img src="assets/cards/music.svg" alt="music" /></a>
+<a href="https://github.com/GenzPx/MonitoredCheck"><img src="assets/cards/MonitoredCheck.svg" alt="MonitoredCheck" /></a>
+<a href="https://github.com/GenzPx/SickHack"><img src="assets/cards/SickHack.svg" alt="SickHack" /></a>
+<a href="https://github.com/GenzPx/ApkStore"><img src="assets/cards/ApkStore.svg" alt="ApkStore" /></a>
+</p>
 
 ### CLI & security
 
-| | Project | What it actually does |
-| :--- | :--- | :--- |
-| <img src="assets/icons/the-decoder.svg" width="20" /> | [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | Dependency-free CLI for decoding base64, URL, hash and multiple data formats |
-| <img src="assets/icons/downloader-ux.svg" width="20" /> | [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | Universal file downloader and URL analyzer for Termux and Linux |
-| <img src="assets/icons/security-toolkit.svg" width="20" /> | [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | Command-line security toolkit with modules for OSINT, reconnaissance, scraping and reporting |
-| <img src="assets/icons/information-cracker.svg" width="20" /> | [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | Information-Cracker: OSINT and network analysis command-line tool |
+<p align="left">
+<a href="https://github.com/GenzPx/The-Decoder"><img src="assets/cards/The-Decoder.svg" alt="The-Decoder" /></a>
+<a href="https://github.com/GenzPx/DOWNLOADER-UX"><img src="assets/cards/DOWNLOADER-UX.svg" alt="DOWNLOADER-UX" /></a>
+<a href="https://github.com/GenzPx/security-toolkit"><img src="assets/cards/security-toolkit.svg" alt="security-toolkit" /></a>
+<a href="https://github.com/GenzPx/Information-Cracker"><img src="assets/cards/Information-Cracker.svg" alt="Information-Cracker" /></a>
+</p>
 
 ### Experiments
 
-| | Project | What it actually does |
-| :--- | :--- | :--- |
-| <img src="assets/icons/casperverse.svg" width="20" /> | [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | CasperAI: a lightweight offline language system built from scratch with NumPy |
-| <img src="assets/icons/edukids.svg" width="20" /> | [**EduKids**](https://github.com/GenzPx/EduKids) | Interactive learning application for children aged 2 to 7 |
+<p align="left">
+<a href="https://github.com/GenzPx/CasperVerse"><img src="assets/cards/CasperVerse.svg" alt="CasperVerse" /></a>
+<a href="https://github.com/GenzPx/EduKids"><img src="assets/cards/EduKids.svg" alt="EduKids" /></a>
+</p>
 
 <!-- PROJECTS:END -->
-
-<p align="center">
-  <a href="https://github.com/GenzPx/music"><img src="assets/badges/music.svg" alt="music" /></a>
-  <a href="https://github.com/GenzPx/MonitoredCheck"><img src="assets/badges/MonitoredCheck.svg" alt="MonitoredCheck" /></a>
-  <a href="https://github.com/GenzPx/CasperVerse"><img src="assets/badges/CasperVerse.svg" alt="CasperVerse" /></a>
-  <a href="https://github.com/GenzPx/SickHack"><img src="assets/badges/SickHack.svg" alt="SickHack" /></a>
-</p>
 
 ---
 

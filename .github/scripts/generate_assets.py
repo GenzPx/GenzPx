@@ -2,19 +2,18 @@
 """Generate all self-hosted SVG assets for the GenzPx profile README.
 
 Outputs:
-  assets/icons/<name>.svg    - 24x24 monochrome-ish icons (per-project brand color)
-  assets/badges/<name>.svg   - pill badges (icon + project name) for featured repos
-  assets/neofetch.svg        - neofetch-style "about" card (replaces the ASCII box)
+  assets/icons/<name>.svg    - 24x24 brand-colored icons
+  assets/cards/<repo>.svg    - card badges (icon + name + short description)
+  assets/neofetch.svg        - neofetch-style "about" card
   terminal_stats.svg         - terminal-window stats card
   streak.svg                 - terminal-window streak card
 
-Static assets (icons, badges, neofetch) are deterministic; dynamic ones
-(terminal_stats, streak) pull live data from the GitHub API. Everything is
-committed to the repo so nothing depends on flaky third-party renderers.
+Project metadata (name, icon, short description, category) lives in
+.github/projects.json — the single source of truth shared with
+update_projects.py. Dynamic cards (stats, streak) pull live GitHub data.
 """
 import json
 import os
-import sys
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -44,8 +43,13 @@ def esc(s):
     return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+def load_projects():
+    with open(".github/projects.json", "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 # ===========================================================================
-# 1. ICONS (Material Design paths, Apache-2.0)
+# ICONS (Material Design paths, Apache-2.0)
 # ===========================================================================
 ICONS = {
     "music": ("M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z", "#A855F7"),
@@ -71,88 +75,93 @@ def gen_icons():
 
 
 # ===========================================================================
-# 2. FEATURED BADGES (icon + name pill)
+# PROJECT CARDS (icon + name + short description)
 # ===========================================================================
-FEATURED = ["music", "MonitoredCheck", "CasperVerse", "SickHack"]
+def card_svg(repo, icon_key, desc):
+    path, color = ICONS[icon_key]
+    H = 56
+    icon = 28
+    pad = 16
+    gap = 14
 
+    name_fs = 16
+    desc_fs = 12
 
-def badge_svg(name, key):
-    path, color = ICONS[key]
-    label = name
-    font_size = 15
-    # approximate text width for DejaVu Sans bold
-    tw = int(len(label) * 8.6)
-    H = 40
-    icon = 20
-    pad = 14
-    gap = 10
-    W = pad + icon + gap + tw + pad
+    name_tw = len(repo) * 8.6
+    desc_tw = len(desc) * 6.6
+    text_w = max(name_tw, desc_tw)
 
-    text_x = pad + icon + gap
-    text_y = H / 2 + font_size / 2 - 1
+    W = pad + icon + gap + text_w + pad
+
     icon_x = pad
     icon_y = (H - icon) / 2
+    text_x = pad + icon + gap
+    name_y = 24
+    desc_y = 42
 
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
             f'viewBox="0 0 {W} {H}">'
-            f'<rect width="{W}" height="{H}" rx="{H/2}" fill="#161B22" stroke="{BORDER}"/>'
+            f'<rect width="{W}" height="{H}" rx="12" fill="#161B22" stroke="{BORDER}"/>'
             f'<g transform="translate({icon_x},{icon_y}) scale({icon/24})">'
             f'<path fill="{color}" d="{path}"/></g>'
-            f'<text x="{text_x}" y="{text_y}" fill="#E6EDF3" font-size="{font_size}" '
-            f'font-family="{SANS}" font-weight="600">{esc(label)}</text>'
+            f'<text x="{text_x}" y="{name_y}" fill="#E6EDF3" font-size="{name_fs}" '
+            f'font-family="{SANS}" font-weight="600">{esc(repo)}</text>'
+            f'<text x="{text_x}" y="{desc_y}" fill="{DIM}" font-size="{desc_fs}" '
+            f'font-family="{SANS}">{esc(desc)}</text>'
             f'</svg>')
 
 
-def gen_badges():
-    os.makedirs("assets/badges", exist_ok=True)
-    for name in FEATURED:
-        key = name.lower().replace("-", "")
-        if key not in ICONS:
-            key = {"monitoredcheck": "monitoredcheck"}.get(key, key)
-        svg = badge_svg(name, key)
-        with open(f"assets/badges/{name}.svg", "w") as f:
-            f.write(svg)
+def gen_cards():
+    os.makedirs("assets/cards", exist_ok=True)
+    projects = load_projects()
+    seen = set()
+    for items in projects.values():
+        for it in items:
+            repo = it["repo"]
+            icon_key = it["icon"]
+            desc = it.get("desc", "")
+            svg = card_svg(repo, icon_key, desc)
+            with open(f"assets/cards/{repo}.svg", "w") as f:
+                f.write(svg)
+            seen.add(repo)
 
 
 # ===========================================================================
-# 3. NEOFETCH CARD (replaces the ASCII terminal box)
+# NEOFETCH CARD
 # ===========================================================================
 def gen_neofetch():
     W = 640
     pad = 26
     title_h = 42
     logo_w = 130
-
     logo_x = pad
     logo_y = title_h + 26
     logo_size = 110
-
     info_x = logo_x + logo_w + 20
     info_y0 = title_h + 46
     lh = 26
 
     rows = [
-        ("genzpx@github", GREEN, 16, "bold"),
-        ("", DIM, 8, ""),
-        ("Name     ", GREEN, 14, ""),
-        ("  GenzPX", "#E6EDF3", 14, ""),
-        ("Alias    ", GREEN, 14, ""),
-        ("  ./XternalZ", "#E6EDF3", 14, ""),
-        ("Role     ", GREEN, 14, ""),
-        ("  Indonesian solo builder", "#E6EDF3", 14, ""),
-        ("Stack    ", GREEN, 14, ""),
-        ("  Android · Python · Web", "#E6EDF3", 14, ""),
-        ("Status   ", GREEN, 14, ""),
-        ("  sleep | eat | have money", "#E6EDF3", 14, ""),
-        ("", DIM, 8, ""),
-        ("\"Tools are meant to be understood,", DIM, 14, ""),
-        (" not just used.\"", DIM, 14, ""),
+        ("genzpx@github", GREEN, 16),
+        ("", DIM, 8),
+        ("Name     ", GREEN, 14),
+        ("  GenzPX", "#E6EDF3", 14),
+        ("Alias    ", GREEN, 14),
+        ("  ./XternalZ", "#E6EDF3", 14),
+        ("Role     ", GREEN, 14),
+        ("  Indonesian solo builder", "#E6EDF3", 14),
+        ("Stack    ", GREEN, 14),
+        ("  Android · Python · Web", "#E6EDF3", 14),
+        ("Status   ", GREEN, 14),
+        ("  sleep | eat | have money", "#E6EDF3", 14),
+        ("", DIM, 8),
+        ('"Tools are meant to be understood,', DIM, 14),
+        (' not just used."', DIM, 14),
     ]
 
-    # merge key/value on same line where possible
     prims = []
     y = info_y0
-    for text, color, size, _w in rows:
+    for text, color, size in rows:
         if text == "":
             y += 8
             continue
@@ -162,19 +171,13 @@ def gen_neofetch():
 
     H = max(y + 20, title_h + 26 + logo_size + 20)
 
-    # logo: rounded square with ">_"
-    lx = logo_x + (logo_size - 40) / 2
-    ly = logo_y + (logo_size - 46) / 2
-
-    svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
-           f'font-family="{FONT}">']
+    svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" font-family="{FONT}">']
     svg.append(f'<rect width="{W}" height="{H}" rx="14" fill="{BG}" stroke="{BORDER}"/>')
     for cx, c in ((24, RED), (44, YEL), (64, GRN)):
         svg.append(f'<circle cx="{cx}" cy="21" r="6" fill="{c}"/>')
     svg.append(f'<text x="{W/2}" y="26" fill="{DIM}" font-size="13" '
                f'text-anchor="middle" font-family="{FONT}">~ genzpx</text>')
     svg.append(f'<line x1="0" y1="{title_h}" x2="{W}" y2="{title_h}" stroke="{BORDER}"/>')
-    # logo tile
     svg.append(f'<rect x="{logo_x}" y="{logo_y}" width="{logo_size}" height="{logo_size}" '
                f'rx="22" fill="#161B22" stroke="{BORDER}"/>')
     svg.append(f'<text x="{logo_x + logo_size/2}" y="{logo_y + logo_size/2 + 16}" '
@@ -186,7 +189,7 @@ def gen_neofetch():
 
 
 # ===========================================================================
-# 4. TERMINAL STATS CARD
+# TERMINAL STATS CARD
 # ===========================================================================
 def fetch_stats():
     user = api(f"https://api.github.com/users/{USER}")
@@ -217,10 +220,6 @@ def fetch_stats():
         "forks": total_forks,
         "langs": langs,
     }
-
-
-def window_head(svg, W, title_h, title):
-    svg.append(f'<rect width="{W}" height="40" rx="0" fill="none"/>')
 
 
 def gen_terminal_stats(d):
@@ -285,7 +284,7 @@ def gen_terminal_stats(d):
 
 
 # ===========================================================================
-# 5. STREAK CARD
+# STREAK CARD
 # ===========================================================================
 CONTRIB = {"PushEvent", "PullRequestEvent", "IssuesEvent", "IssueCommentEvent",
            "CreateEvent", "PullRequestReviewEvent", "PullRequestReviewCommentEvent",
@@ -322,7 +321,6 @@ def compute_streak(events):
         else:
             commits += 1
 
-    # current streak (walk back from today; allow today or yesterday as start)
     cur = 0
     d = today
     if str(d) not in days:
@@ -331,7 +329,6 @@ def compute_streak(events):
         cur += 1
         d -= timedelta(days=1)
 
-    # longest streak
     sorted_days = sorted(days)
     longest = 0
     run = 0
@@ -345,7 +342,6 @@ def compute_streak(events):
         prev = dt
         longest = max(longest, run)
 
-    # last-30-day sparkline
     spark = []
     for i in range(29, -1, -1):
         dd = today - timedelta(days=i)
@@ -360,26 +356,18 @@ def gen_streak(s):
     title_h = 40
     y = title_h + 20
     lh = 26
-
     prims = []
 
-    def text(x, yy, t, color, size, anchor="start", font=FONT):
+    def text(x, yy, t, color, size):
         return (f'<text x="{x}" y="{yy}" fill="{color}" font-size="{size}" '
-                f'font-family="{font}" text-anchor="{anchor}">{esc(t)}</text>')
+                f'font-family="{FONT}">{esc(t)}</text>')
 
-    prims.append(text(pad, y + 4, "$ streak --live", GREEN, 14))
-    y += lh
-    prims.append(text(pad, y + 4, f"  current streak   {s['current']} days", "#E6EDF3", 14))
-    y += lh
-    prims.append(text(pad, y + 4, f"  longest streak   {s['longest']} days", "#E6EDF3", 14))
-    y += lh
-    prims.append(text(pad, y + 4, f"  contributions    ~{s['commits']} (last 90d)", "#E6EDF3", 14))
-    y += lh + 10
+    prims.append(text(pad, y + 4, "$ streak --live", GREEN, 14)); y += lh
+    prims.append(text(pad, y + 4, f"  current streak   {s['current']} days", "#E6EDF3", 14)); y += lh
+    prims.append(text(pad, y + 4, f"  longest streak   {s['longest']} days", "#E6EDF3", 14)); y += lh
+    prims.append(text(pad, y + 4, f"  contributions    ~{s['commits']} (last 90d)", "#E6EDF3", 14)); y += lh + 10
+    prims.append(text(pad, y + 4, "$ sparkline", GREEN, 14)); y += lh
 
-    prims.append(text(pad, y + 4, "$ sparkline", GREEN, 14))
-    y += lh
-
-    # sparkline bars (30 days)
     bw = 8
     gap = 5
     base_y = y + 6
@@ -408,13 +396,13 @@ def gen_streak(s):
 def main():
     gen_icons()
     print("icons ok")
-    gen_badges()
-    print("badges ok")
+    gen_cards()
+    print("cards ok")
     gen_neofetch()
     print("neofetch ok")
     d = fetch_stats()
     gen_terminal_stats(d)
-    print("terminal_stats ok:", json.dumps({k: v for k, v in d.items() if k != "langs"}))
+    print("terminal_stats ok")
     s = compute_streak(fetch_events())
     gen_streak(s)
     print("streak ok:", json.dumps({k: v for k, v in s.items() if k != "spark"}))

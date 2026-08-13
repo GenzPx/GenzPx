@@ -1,18 +1,14 @@
 {
-  "Android": [
-    {"repo": "music", "icon": "music", "desc": "offline player"},
-    {"repo": "MonitoredCheck", "icon": "monitoredcheck", "desc": "system monitor"},
-    {"repo": "SickHack", "icon": "sickhack", "desc": "security toolkit"},
-    {"repo": "ApkStore", "icon": "apkstore", "desc": "app store"}
-  ],
-  "CLI & security": [
-    {"repo": "The-Decoder", "icon": "the-decoder", "desc": "decoder CLI"},
-    {"repo": "DOWNLOADER-UX", "icon": "downloader-ux", "desc": "downloader"},
-    {"repo": "security-toolkit", "icon": "security-toolkit", "desc": "OSINT toolkit"},
-    {"repo": "Information-Cracker", "icon": "information-cracker", "desc": "network analysis"}
-  ],
-  "Experiments": [
-    {"repo": "CasperVerse", "icon": "casperverse", "desc": "offline AI"},
-    {"repo": "EduKids", "icon": "edukids", "desc": "kids learning"}
-  ]
+  "short_desc": {
+    "music": "offline music player",
+    "MonitoredCheck": "system monitor app",
+    "SickHack": "web security toolkit",
+    "ApkStore": "github app store",
+    "The-Decoder": "multi-decoder cli",
+    "DOWNLOADER-UX": "file downloader tool",
+    "security-toolkit": "osint cli toolkit",
+    "Information-Cracker": "network analysis tool",
+    "CasperVerse": "offline ai system",
+    "EduKids": "kids learning app"
+  }
 }

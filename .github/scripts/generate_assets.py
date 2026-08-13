@@ -1,16 +1,13 @@
 #!/usr/bin/env python3
-"""Generate all self-hosted SVG assets for the GenzPx profile README.
+"""Generate self-hosted SVG assets for the GenzPx profile README.
 
 Outputs:
-  assets/icons/<name>.svg    - 24x24 brand-colored icons
-  assets/cards/<repo>.svg    - card badges (icon + name + short description)
-  assets/neofetch.svg        - neofetch-style "about" card
-  terminal_stats.svg         - terminal-window stats card
-  streak.svg                 - terminal-window streak card
+  assets/neofetch.svg    - neofetch-style "about" card
+  terminal_stats.svg     - terminal-window stats card
+  streak.svg             - terminal-window streak card
 
-Project metadata (name, icon, short description, category) lives in
-.github/projects.json — the single source of truth shared with
-update_projects.py. Dynamic cards (stats, streak) pull live GitHub data.
+Dynamic cards (stats, streak) pull live data from the GitHub API. Everything is
+committed to the repo so nothing depends on flaky third-party renderers.
 """
 import json
 import os
@@ -27,7 +24,6 @@ GREEN = "#00FF41"
 DIM = "#8b949e"
 RED, YEL, GRN = "#ff5f56", "#ffbd2e", "#27c93f"
 FONT = "DejaVu Sans Mono, monospace"
-SANS = "DejaVu Sans, sans-serif"
 
 
 def api(url):
@@ -41,89 +37,6 @@ def api(url):
 
 def esc(s):
     return str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-
-
-def load_projects():
-    with open(".github/projects.json", "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-# ===========================================================================
-# ICONS (Material Design paths, Apache-2.0)
-# ===========================================================================
-ICONS = {
-    "music": ("M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z", "#A855F7"),
-    "monitoredcheck": ("M20 3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h3l-1 1v2h12v-2l-1-1h3c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 13H4V5h16v11z", "#06B6D4"),
-    "sickhack": ("M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V8h16v10zm-2-1h-6v-2h6v2zM7.5 17l-1.41-1.41L8.67 13l-2.59-2.59L7.5 9l4 4-4 4z", "#22C55E"),
-    "apkstore": ("M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24c-2.86-1.21-6.08-1.21-8.94 0L5.65 5.67c-.19-.29-.58-.38-.87-.2-.28.18-.37.54-.22.83L6.4 9.48C3.3 11.25 1.28 14.44 1 18h22c-.28-3.56-2.3-6.75-5.4-8.52zM7 15.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25zm10 0c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z", "#6366F1"),
-    "the-decoder": ("M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z", "#14B8A6"),
-    "downloader-ux": ("M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z", "#3B82F6"),
-    "security-toolkit": ("M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z", "#0EA5E9"),
-    "information-cracker": ("M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z", "#F59E0B"),
-    "casperverse": ("M15 9H9v6h6V9zm-2 4h-2v-2h2v2zm8-2V9h-2V7c0-1.1-.9-2-2-2h-2V3h-2v2h-2V3H9v2H7c-1.1 0-2 .9-2 2v2H3v2h2v2H3v2h2v2c0 1.1.9 2 2 2h2v2h2v-2h2v2h2v-2h2c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2zm-4 6H7V7h10v10z", "#EC4899"),
-    "edukids": ("M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z", "#F97316"),
-}
-
-
-def gen_icons():
-    os.makedirs("assets/icons", exist_ok=True)
-    for name, (path, color) in ICONS.items():
-        svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" '
-               f'width="24" height="24"><path fill="{color}" d="{path}"/></svg>')
-        with open(f"assets/icons/{name}.svg", "w") as f:
-            f.write(svg)
-
-
-# ===========================================================================
-# PROJECT CARDS (icon + name + short description)
-# ===========================================================================
-def card_svg(repo, icon_key, desc):
-    path, color = ICONS[icon_key]
-    H = 56
-    icon = 28
-    pad = 16
-    gap = 14
-
-    name_fs = 16
-    desc_fs = 12
-
-    name_tw = len(repo) * 8.6
-    desc_tw = len(desc) * 6.6
-    text_w = max(name_tw, desc_tw)
-
-    W = pad + icon + gap + text_w + pad
-
-    icon_x = pad
-    icon_y = (H - icon) / 2
-    text_x = pad + icon + gap
-    name_y = 24
-    desc_y = 42
-
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
-            f'viewBox="0 0 {W} {H}">'
-            f'<rect width="{W}" height="{H}" rx="12" fill="#161B22" stroke="{BORDER}"/>'
-            f'<g transform="translate({icon_x},{icon_y}) scale({icon/24})">'
-            f'<path fill="{color}" d="{path}"/></g>'
-            f'<text x="{text_x}" y="{name_y}" fill="#E6EDF3" font-size="{name_fs}" '
-            f'font-family="{SANS}" font-weight="600">{esc(repo)}</text>'
-            f'<text x="{text_x}" y="{desc_y}" fill="{DIM}" font-size="{desc_fs}" '
-            f'font-family="{SANS}">{esc(desc)}</text>'
-            f'</svg>')
-
-
-def gen_cards():
-    os.makedirs("assets/cards", exist_ok=True)
-    projects = load_projects()
-    seen = set()
-    for items in projects.values():
-        for it in items:
-            repo = it["repo"]
-            icon_key = it["icon"]
-            desc = it.get("desc", "")
-            svg = card_svg(repo, icon_key, desc)
-            with open(f"assets/cards/{repo}.svg", "w") as f:
-                f.write(svg)
-            seen.add(repo)
 
 
 # ===========================================================================
@@ -394,10 +307,6 @@ def gen_streak(s):
 
 
 def main():
-    gen_icons()
-    print("icons ok")
-    gen_cards()
-    print("cards ok")
     gen_neofetch()
     print("neofetch ok")
     d = fetch_stats()

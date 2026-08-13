@@ -33,30 +33,18 @@ I ship tools that solve my own problems — offline-first Android apps, CLI secu
 
 <!-- PROJECTS:START -->
 
-### Android
-
-<p align="left">
-<a href="https://github.com/GenzPx/music"><img src="assets/cards/music.svg" alt="music" /></a>
-<a href="https://github.com/GenzPx/MonitoredCheck"><img src="assets/cards/MonitoredCheck.svg" alt="MonitoredCheck" /></a>
-<a href="https://github.com/GenzPx/SickHack"><img src="assets/cards/SickHack.svg" alt="SickHack" /></a>
-<a href="https://github.com/GenzPx/ApkStore"><img src="assets/cards/ApkStore.svg" alt="ApkStore" /></a>
-</p>
-
-### CLI & security
-
-<p align="left">
-<a href="https://github.com/GenzPx/The-Decoder"><img src="assets/cards/The-Decoder.svg" alt="The-Decoder" /></a>
-<a href="https://github.com/GenzPx/DOWNLOADER-UX"><img src="assets/cards/DOWNLOADER-UX.svg" alt="DOWNLOADER-UX" /></a>
-<a href="https://github.com/GenzPx/security-toolkit"><img src="assets/cards/security-toolkit.svg" alt="security-toolkit" /></a>
-<a href="https://github.com/GenzPx/Information-Cracker"><img src="assets/cards/Information-Cracker.svg" alt="Information-Cracker" /></a>
-</p>
-
-### Experiments
-
-<p align="left">
-<a href="https://github.com/GenzPx/CasperVerse"><img src="assets/cards/CasperVerse.svg" alt="CasperVerse" /></a>
-<a href="https://github.com/GenzPx/EduKids"><img src="assets/cards/EduKids.svg" alt="EduKids" /></a>
-</p>
+| Project | Description |
+| :--- | :--- |
+| [**music**](https://github.com/GenzPx/music) | offline music player |
+| [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
+| [**SickHack**](https://github.com/GenzPx/SickHack) | web security toolkit |
+| [**ApkStore**](https://github.com/GenzPx/ApkStore) | github app store |
+| [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | multi-decoder cli |
+| [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
+| [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
+| [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | network analysis tool |
+| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | offline ai system |
+| [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
 
 <!-- PROJECTS:END -->
 

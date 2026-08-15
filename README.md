@@ -28,6 +28,8 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 
 | Project | Description |
 | :--- | :--- |
+| [**HackJack**](https://github.com/GenzPx/HackJack) | ??? |
+| [**STANG**](https://github.com/GenzPx/STANG) | stang |
 | [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | network analysis tool |
 | [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
 | [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
@@ -36,8 +38,6 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 | [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | offline ai system |
 | [**ApkStore**](https://github.com/GenzPx/ApkStore) | github app store |
 | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
-| [**SickHack**](https://github.com/GenzPx/SickHack) | web security toolkit |
-| [**music**](https://github.com/GenzPx/music) | offline music player |
 
 <!-- PROJECTS:END -->
 

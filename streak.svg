@@ -6,7 +6,7 @@
 <text x="300.0" y="25" fill="#8B949E" font-size="13" text-anchor="middle">~ genzpx</text>
 <line x1="0" y1="40" x2="600" y2="40" stroke="#30363D"/>
 <text x="20" y="64" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ streak --live</text>
-<text x="20" y="90" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  current streak   6 days</text>
+<text x="20" y="90" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  current streak   0 days</text>
 <text x="20" y="116" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  longest streak   6 days</text>
 <text x="20" y="142" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  contributions    ~9 (last 90d)</text>
 <text x="20" y="178" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ sparkline</text>
@@ -32,12 +32,12 @@
 <rect x="267" y="203" width="8" height="3" rx="2" fill="#21262D"/>
 <rect x="280" y="203" width="8" height="3" rx="2" fill="#21262D"/>
 <rect x="293" y="203" width="8" height="3" rx="2" fill="#21262D"/>
-<rect x="306" y="203" width="8" height="3" rx="2" fill="#21262D"/>
+<rect x="306" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
 <rect x="319" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
 <rect x="332" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
 <rect x="345" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
 <rect x="358" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
 <rect x="371" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
-<rect x="384" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
+<rect x="384" y="203" width="8" height="3" rx="2" fill="#21262D"/>
 <rect x="397" y="203" width="8" height="3" rx="2" fill="#21262D"/>
 </svg>

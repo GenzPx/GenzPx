@@ -28,6 +28,9 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 
 | Project | Description |
 | :--- | :--- |
+| [**Mammoth-Panels**](https://github.com/GenzPx/Mammoth-Panels) | mammoth panels adalah |
+| [**badge-lab**](https://github.com/GenzPx/badge-lab) | latihan git + |
+| [**GenManagers**](https://github.com/GenzPx/GenManagers) | genmanagers |
 | [**HackJack**](https://github.com/GenzPx/HackJack) | ??? |
 | [**STANG**](https://github.com/GenzPx/STANG) | stang |
 | [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | network analysis tool |
@@ -35,9 +38,6 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 | [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
 | [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
 | [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | multi-decoder cli |
-| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | offline ai system |
-| [**ApkStore**](https://github.com/GenzPx/ApkStore) | github app store |
-| [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
 
 <!-- PROJECTS:END -->
 

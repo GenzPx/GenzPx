@@ -28,6 +28,7 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 
 | Project | Description |
 | :--- | :--- |
+| [**Games**](https://github.com/GenzPx/Games) | — |
 | [**Mammoth-Panels**](https://github.com/GenzPx/Mammoth-Panels) | mammoth panels adalah |
 | [**badge-lab**](https://github.com/GenzPx/badge-lab) | latihan git + |
 | [**GenManagers**](https://github.com/GenzPx/GenManagers) | genmanagers |
@@ -37,7 +38,6 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 | [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
 | [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
 | [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
-| [**The-Decoder**](https://github.com/GenzPx/The-Decoder) | multi-decoder cli |
 
 <!-- PROJECTS:END -->
 

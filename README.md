@@ -28,16 +28,16 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 
 | Project | Description |
 | :--- | :--- |
-| [**Games**](https://github.com/GenzPx/Games) | — |
-| [**Mammoth-Panels**](https://github.com/GenzPx/Mammoth-Panels) | mammoth panels adalah |
-| [**badge-lab**](https://github.com/GenzPx/badge-lab) | latihan git + |
-| [**GenManagers**](https://github.com/GenzPx/GenManagers) | genmanagers |
-| [**HackJack**](https://github.com/GenzPx/HackJack) | ??? |
-| [**STANG**](https://github.com/GenzPx/STANG) | stang |
-| [**Information-Cracker**](https://github.com/GenzPx/Information-Cracker) | network analysis tool |
-| [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
+| [**similarism**](https://github.com/GenzPx/similarism) | authorized sql-injection auditor |
 | [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
+| [**GenManagers**](https://github.com/GenzPx/GenManagers) | genmanagers — file/process |
+| [**Mammoth-Panels**](https://github.com/GenzPx/Mammoth-Panels) | mammoth panels adalah |
+| [**SickHack**](https://github.com/GenzPx/SickHack) | web security toolkit |
 | [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
+| [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
+| [**badge-lab**](https://github.com/GenzPx/badge-lab) | latihan git + |
+| [**achievement-hunters**](https://github.com/GenzPx/achievement-hunters) | memburu github achievements: |
+| [**Games**](https://github.com/GenzPx/Games) | last survival — |
 
 <!-- PROJECTS:END -->
 

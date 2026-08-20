@@ -12,11 +12,11 @@
 <text x="116.0" y="106" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">./XternalZ</text>
 <text x="20" y="132" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ stats</text>
 <text x="20" y="154" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  followers </text>
-<text x="116.0" y="154" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">1</text>
+<text x="116.0" y="154" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">2</text>
 <text x="20" y="176" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  following </text>
 <text x="116.0" y="176" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">0</text>
 <text x="20" y="198" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  repos     </text>
-<text x="116.0" y="198" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">17</text>
+<text x="116.0" y="198" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">19</text>
 <text x="20" y="220" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  stars     </text>
 <text x="116.0" y="220" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">6</text>
 <text x="20" y="242" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  forks     </text>
@@ -24,20 +24,20 @@
 <text x="20" y="268" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ languages</text>
 <text x="20" y="290" fill="#8B949E" font-size="13" font-family="DejaVu Sans Mono, monospace">  C         </text>
 <rect x="150" y="277" width="370" height="11" rx="3" fill="#161B22"/>
-<rect x="150" y="277" width="219" height="11" rx="3" fill="#3FB950"/>
-<text x="530" y="290" fill="#E6EDF3" font-size="13" font-family="DejaVu Sans Mono, monospace">59.3%</text>
+<rect x="150" y="277" width="218" height="11" rx="3" fill="#3FB950"/>
+<text x="530" y="290" fill="#E6EDF3" font-size="13" font-family="DejaVu Sans Mono, monospace">59.0%</text>
 <text x="20" y="312" fill="#8B949E" font-size="13" font-family="DejaVu Sans Mono, monospace">  Kotlin    </text>
 <rect x="150" y="299" width="370" height="11" rx="3" fill="#161B22"/>
 <rect x="150" y="299" width="66" height="11" rx="3" fill="#3FB950"/>
-<text x="530" y="312" fill="#E6EDF3" font-size="13" font-family="DejaVu Sans Mono, monospace">18.1%</text>
+<text x="530" y="312" fill="#E6EDF3" font-size="13" font-family="DejaVu Sans Mono, monospace">18.0%</text>
 <text x="20" y="334" fill="#8B949E" font-size="13" font-family="DejaVu Sans Mono, monospace">  Python    </text>
 <rect x="150" y="321" width="370" height="11" rx="3" fill="#161B22"/>
-<rect x="150" y="321" width="24" height="11" rx="3" fill="#3FB950"/>
-<text x="530" y="334" fill="#E6EDF3" font-size="13" font-family="DejaVu Sans Mono, monospace">6.7%</text>
+<rect x="150" y="321" width="27" height="11" rx="3" fill="#3FB950"/>
+<text x="530" y="334" fill="#E6EDF3" font-size="13" font-family="DejaVu Sans Mono, monospace">7.3%</text>
 <text x="20" y="356" fill="#8B949E" font-size="13" font-family="DejaVu Sans Mono, monospace">  Java      </text>
 <rect x="150" y="343" width="370" height="11" rx="3" fill="#161B22"/>
-<rect x="150" y="343" width="23" height="11" rx="3" fill="#3FB950"/>
-<text x="530" y="356" fill="#E6EDF3" font-size="13" font-family="DejaVu Sans Mono, monospace">6.3%</text>
+<rect x="150" y="343" width="22" height="11" rx="3" fill="#3FB950"/>
+<text x="530" y="356" fill="#E6EDF3" font-size="13" font-family="DejaVu Sans Mono, monospace">6.2%</text>
 <text x="20" y="378" fill="#8B949E" font-size="13" font-family="DejaVu Sans Mono, monospace">  C++       </text>
 <rect x="150" y="365" width="370" height="11" rx="3" fill="#161B22"/>
 <rect x="150" y="365" width="16" height="11" rx="3" fill="#3FB950"/>

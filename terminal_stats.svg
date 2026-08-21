@@ -18,7 +18,7 @@
 <text x="20" y="198" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  repos     </text>
 <text x="116.0" y="198" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">19</text>
 <text x="20" y="220" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  stars     </text>
-<text x="116.0" y="220" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">6</text>
+<text x="116.0" y="220" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">22</text>
 <text x="20" y="242" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  forks     </text>
 <text x="116.0" y="242" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">0</text>
 <text x="20" y="268" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ languages</text>
@@ -46,7 +46,7 @@
 <text x="20" y="426" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  state     </text>
 <text x="116.0" y="426" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">sleeping</text>
 <text x="20" y="448" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  since     </text>
-<text x="116.0" y="448" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">8h 04m</text>
+<text x="116.0" y="448" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">8h 07m</text>
 <text x="20" y="470" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  next      </text>
 <text x="116.0" y="470" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">coding @ 09:00 WIB</text>
 <text x="20" y="496" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ exit</text>

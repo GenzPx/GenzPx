@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://media1.tenor.com/m/9C-wnbKI-IQAAAAC/death-note.gif" width="180" alt="death note" />
+<img src="https://raw.githubusercontent.com/GenzPx/GenzPx/refs/heads/main/assets/sqds.gif" width="180" alt="death note" />
 
 </div>
 
@@ -121,7 +121,7 @@ Especially, I don't have any skills. But I love:
 
 <div align="center">
 
-<img src="https://media1.tenor.com/m/CErFkl8oMMkAAAAC/oguri-cap-cinderella-gray.gif" width="180" alt="oguri" />
+<img src="https://raw.githubusercontent.com/GenzPx/GenzPx/refs/heads/main/assets/ep10-cingray.gif" width="180" alt="oguri" />
 
 <br/>
 

@@ -28,6 +28,9 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 
 | Project | Description |
 | :--- | :--- |
+| [**Lucky-Box**](https://github.com/GenzPx/Lucky-Box) | — |
+| [**Chess-hangman**](https://github.com/GenzPx/Chess-hangman) | chess + hangman |
+| [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
 | [**similarism**](https://github.com/GenzPx/similarism) | authorized sql-injection auditor |
 | [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
 | [**GenManagers**](https://github.com/GenzPx/GenManagers) | genmanagers — file/process |
@@ -35,9 +38,6 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 | [**SickHack**](https://github.com/GenzPx/SickHack) | web security toolkit |
 | [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
 | [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
-| [**badge-lab**](https://github.com/GenzPx/badge-lab) | latihan git + |
-| [**achievement-hunters**](https://github.com/GenzPx/achievement-hunters) | memburu github achievements: |
-| [**Games**](https://github.com/GenzPx/Games) | last survival — |
 
 <!-- PROJECTS:END -->
 

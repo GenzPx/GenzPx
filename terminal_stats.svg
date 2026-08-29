@@ -44,11 +44,11 @@
 <text x="530" y="378" fill="#E6EDF3" font-size="13" font-family="DejaVu Sans Mono, monospace">5.1%</text>
 <text x="20" y="404" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ status</text>
 <text x="20" y="426" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  state     </text>
-<text x="116.0" y="426" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">coding</text>
+<text x="116.0" y="426" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">eating</text>
 <text x="20" y="448" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  since     </text>
-<text x="116.0" y="448" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">3h 27m</text>
+<text x="116.0" y="448" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">35m</text>
 <text x="20" y="470" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  next      </text>
-<text x="116.0" y="470" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">eating @ 18:00 WIB</text>
+<text x="116.0" y="470" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">coding @ 13:00 WIB</text>
 <text x="20" y="496" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ exit</text>
 <text x="20" y="518" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">            </text>
 <text x="116.0" y="518" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">bye.</text>

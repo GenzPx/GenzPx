@@ -12,7 +12,7 @@
 <text x="116.0" y="106" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">./XternalZ</text>
 <text x="20" y="132" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ stats</text>
 <text x="20" y="154" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  followers </text>
-<text x="116.0" y="154" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">2</text>
+<text x="116.0" y="154" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">3</text>
 <text x="20" y="176" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  following </text>
 <text x="116.0" y="176" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">0</text>
 <text x="20" y="198" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  repos     </text>
@@ -46,7 +46,7 @@
 <text x="20" y="426" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  state     </text>
 <text x="116.0" y="426" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">coding</text>
 <text x="20" y="448" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  since     </text>
-<text x="116.0" y="448" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">1h 31m</text>
+<text x="116.0" y="448" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">49m</text>
 <text x="20" y="470" fill="#8B949E" font-size="14" font-family="DejaVu Sans Mono, monospace">  next      </text>
 <text x="116.0" y="470" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">eating @ 12:00 WIB</text>
 <text x="20" y="496" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ exit</text>

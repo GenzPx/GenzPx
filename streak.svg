@@ -7,21 +7,21 @@
 <line x1="0" y1="40" x2="600" y2="40" stroke="#30363D"/>
 <text x="20" y="64" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ streak --live</text>
 <text x="20" y="90" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  current streak   0 days</text>
-<text x="20" y="116" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  longest streak   4 days</text>
-<text x="20" y="142" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  contributions    ~45 (last 90d)</text>
+<text x="20" y="116" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  longest streak   3 days</text>
+<text x="20" y="142" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  contributions    ~44 (last 90d)</text>
 <text x="20" y="178" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ sparkline</text>
 <rect x="20" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
 <rect x="33" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
-<rect x="46" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
+<rect x="46" y="203" width="8" height="3" rx="2" fill="#21262D"/>
 <rect x="59" y="203" width="8" height="3" rx="2" fill="#21262D"/>
-<rect x="72" y="203" width="8" height="3" rx="2" fill="#21262D"/>
+<rect x="72" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
 <rect x="85" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
 <rect x="98" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
-<rect x="111" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
-<rect x="124" y="203" width="8" height="3" rx="2" fill="#21262D"/>
+<rect x="111" y="203" width="8" height="3" rx="2" fill="#21262D"/>
+<rect x="124" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
 <rect x="137" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
 <rect x="150" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
-<rect x="163" y="176" width="8" height="30" rx="2" fill="#3FB950"/>
+<rect x="163" y="203" width="8" height="3" rx="2" fill="#21262D"/>
 <rect x="176" y="203" width="8" height="3" rx="2" fill="#21262D"/>
 <rect x="189" y="203" width="8" height="3" rx="2" fill="#21262D"/>
 <rect x="202" y="203" width="8" height="3" rx="2" fill="#21262D"/>

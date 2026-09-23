@@ -7,7 +7,7 @@
 <line x1="0" y1="40" x2="600" y2="40" stroke="#30363D"/>
 <text x="20" y="64" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ streak --live</text>
 <text x="20" y="90" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  current streak   0 days</text>
-<text x="20" y="116" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  longest streak   1 days</text>
+<text x="20" y="116" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  longest streak   0 days</text>
 <text x="20" y="142" fill="#E6EDF3" font-size="14" font-family="DejaVu Sans Mono, monospace">  contributions    ~0 (last 90d)</text>
 <text x="20" y="178" fill="#3FB950" font-size="14" font-family="DejaVu Sans Mono, monospace">$ sparkline</text>
 <rect x="20" y="203" width="8" height="3" rx="2" fill="#21262D"/>

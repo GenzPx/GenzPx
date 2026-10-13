@@ -28,6 +28,7 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 
 | Project | Description |
 | :--- | :--- |
+| [**Gudang**](https://github.com/GenzPx/Gudang) | gudang |
 | [**Lucky-Box**](https://github.com/GenzPx/Lucky-Box) | — |
 | [**Chess-hangman**](https://github.com/GenzPx/Chess-hangman) | chess + hangman |
 | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
@@ -37,7 +38,6 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 | [**Mammoth-Panels**](https://github.com/GenzPx/Mammoth-Panels) | mammoth panels adalah |
 | [**SickHack**](https://github.com/GenzPx/SickHack) | web security toolkit |
 | [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
-| [**security-toolkit**](https://github.com/GenzPx/security-toolkit) | osint cli toolkit |
 
 <!-- PROJECTS:END -->
 

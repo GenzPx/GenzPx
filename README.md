@@ -28,16 +28,11 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 
 | Project | Description |
 | :--- | :--- |
-| [**Gudang**](https://github.com/GenzPx/Gudang) | gudang |
-| [**Lucky-Box**](https://github.com/GenzPx/Lucky-Box) | — |
-| [**Chess-hangman**](https://github.com/GenzPx/Chess-hangman) | chess + hangman |
-| [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
-| [**similarism**](https://github.com/GenzPx/similarism) | authorized sql-injection auditor |
-| [**DOWNLOADER-UX**](https://github.com/GenzPx/DOWNLOADER-UX) | file downloader tool |
-| [**GenManagers**](https://github.com/GenzPx/GenManagers) | genmanagers — file/process |
-| [**Mammoth-Panels**](https://github.com/GenzPx/Mammoth-Panels) | mammoth panels adalah |
-| [**SickHack**](https://github.com/GenzPx/SickHack) | web security toolkit |
-| [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
+| [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | Android system monitor and hardware inspector |
+| [**EduKids**](https://github.com/GenzPx/EduKids) | Interactive learning app for young children |
+| [**STANG**](https://github.com/GenzPx/STANG) | Python CLI toolkit for utilities and automation |
+| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | Offline language system built with NumPy |
+| [**music**](https://github.com/GenzPx/music) | Offline music and video player for Android |
 
 <!-- PROJECTS:END -->
 
@@ -94,6 +89,8 @@ Especially, I don't have any skills. But I love:
 ---
 
 ## 🌐 Connect
+
+🏢 Check out **[Sedot WC Studio](https://studiosdtwc.totalh.net/)**.
 
 <p>
   <a href="https://whatsapp.com/channel/0029Vb5NMsa9Gv7QCAqh1T1z">

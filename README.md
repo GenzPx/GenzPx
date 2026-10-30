@@ -90,8 +90,6 @@ Especially, I don't have any skills. But I love:
 
 ## 🌐 Connect
 
-🏢 Check out **[Sedot WC Studio](https://studiosdtwc.totalh.net/)**.
-
 <p>
   <a href="https://whatsapp.com/channel/0029Vb5NMsa9Gv7QCAqh1T1z">
     <img src="https://img.shields.io/badge/WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
@@ -113,7 +111,7 @@ Especially, I don't have any skills. But I love:
   </a>
 </p>
 
-> 🏢 Also cooking things under **[Hoshidev](https://github.com/Hoshidev)**.
+> 🏢 Also cooking things under **[Sedot WC Studio](https://studiosdtwc.totalh.net/)**.
 ---
 
 <div align="center">

@@ -28,11 +28,12 @@ I don't build tools to solve your problems — I build them to solve mine. Offli
 
 | Project | Description |
 | :--- | :--- |
-| [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | Android system monitor and hardware inspector |
-| [**EduKids**](https://github.com/GenzPx/EduKids) | Interactive learning app for young children |
-| [**STANG**](https://github.com/GenzPx/STANG) | Python CLI toolkit for utilities and automation |
-| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | Offline language system built with NumPy |
-| [**music**](https://github.com/GenzPx/music) | Offline music and video player for Android |
+| [**internet-surfers-is**](https://github.com/GenzPx/internet-surfers-is) | internet surfers android |
+| [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
+| [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
+| [**STANG**](https://github.com/GenzPx/STANG) | stang — python |
+| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | offline ai system |
+| [**music**](https://github.com/GenzPx/music) | offline music player |
 
 <!-- PROJECTS:END -->
 

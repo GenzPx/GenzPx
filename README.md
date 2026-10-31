@@ -98,13 +98,13 @@ Especially, I don't have any skills. But I love:
   <a href="https://t.me/Ns4ux">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <a href="https://www.youtube.com/@Gensnpi">
+  <a href="https://www.youtube.com/@yadiberbicara">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
   <a href="https://www.facebook.com/profile.php?id=100088285309839">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
-  <a href="https://nanimanga.xyz">
+  <a href="https://nanimanga.ct.ws">
     <img src="https://img.shields.io/badge/nanimanga.xyz-FF6B6B?style=for-the-badge&logo=readthedocs&logoColor=white" />
   </a>
   <a href="https://mypage.syosetu.com/2882178/">

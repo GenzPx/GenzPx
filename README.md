@@ -36,12 +36,12 @@ Personal projects, practical tools, and things I wanted to exist.
 
 | Project | Description |
 | :--- | :--- |
-| [**internet-surfers-is**](https://github.com/GenzPx/internet-surfers-is) | Internet Surfers for Android. |
-| [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | A system monitoring app. |
-| [**EduKids**](https://github.com/GenzPx/EduKids) | A learning app for kids. |
-| [**STANG**](https://github.com/GenzPx/STANG) | A Python project. |
-| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | An offline AI system. |
-| [**music**](https://github.com/GenzPx/music) | An offline music player. |
+| [**internet-surfers-is**](https://github.com/GenzPx/internet-surfers-is) | internet surfers android |
+| [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
+| [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
+| [**STANG**](https://github.com/GenzPx/STANG) | stang — python |
+| [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | offline ai system |
+| [**music**](https://github.com/GenzPx/music) | offline music player |
 
 <!-- PROJECTS:END -->
 

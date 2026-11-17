@@ -36,9 +36,9 @@ Personal projects, practical tools, and things I wanted to exist.
 
 | Project | Description |
 | :--- | :--- |
+| [**STANG**](https://github.com/GenzPx/STANG) | stang — python |
 | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
 | [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
-| [**STANG**](https://github.com/GenzPx/STANG) | stang — python |
 | [**CasperVerse**](https://github.com/GenzPx/CasperVerse) | offline ai system |
 | [**music**](https://github.com/GenzPx/music) | offline music player |
 

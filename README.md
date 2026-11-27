@@ -36,6 +36,7 @@ Personal projects, practical tools, and things I wanted to exist.
 
 | Project | Description |
 | :--- | :--- |
+| [**chessportable**](https://github.com/GenzPx/chessportable) | pure-python cli chess |
 | [**STANG**](https://github.com/GenzPx/STANG) | stang — python |
 | [**MonitoredCheck**](https://github.com/GenzPx/MonitoredCheck) | system monitor app |
 | [**EduKids**](https://github.com/GenzPx/EduKids) | kids learning app |
